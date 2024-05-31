@@ -1,0 +1,123 @@
+#logo ,#icons  {
+  color: #7AB730;
+}
+#social {
+  color: #656565
+}
+#banner-area {
+  background: linear-gradient(rgba(0, 0, 0, 0.193), rgba(0, 0, 0, 0.314))
+} 
+#carousel_btn {
+  background-color: #7AB730;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+#form input {
+  padding: 10px 40px;
+  margin: 10px 2px;
+  border: 1px solid #ced4da;
+}
+#form input::placeholder {
+  color: black;
+}
+#form_btn
+{
+  background-color: #7AB730;
+  padding: 8px 80px;
+  font-size: 20px;
+  border: none;
+}
+#about_btn , #fotter_btn
+{
+  background-color: #7AB730; 
+}
+#about_icons i 
+{
+  padding: 30px;
+  background-color: #7AB730;
+}
+#zoom_img
+{
+  border: 1px solid white;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#zoom-box
+{
+  overflow: hidden;
+}
+#zoom-box img
+{
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+#zoom-box :hover
+{
+  transform: scale(1.2);
+}
+#service-icon
+{
+  color: #7AB730;
+  border: 2px solid #7AB730;
+}
+#footer-icons
+{
+  color: #7AB730;
+  border: 1px solid #7AB730;
+}
+#fotter_btn1
+{
+  padding: 8px 5px;
+  width: 120px;
+}
+#img-bg
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.564)),url(../Images/Background/carousel-1.jpg);
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#box1
+{
+  z-index: 100;
+  top: 20px;
+}
+/* TABLET */
+@media screen and (min-width:768px) and (max-width: 1023px){
+  #heading {
+    font-size: 60px;
+    font-weight: bold;
+  }
+}
+/*LAPTOP */
+@media screen and (min-width:1024px) {
+  #form {
+    margin-top: -50px;
+  }
+  #heading {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #content {
+    margin-bottom: 150px;
+  }
+  #carousel_btn {
+    padding: 10px 0px;
+    width: 200px;
+    font-size: larger;
+  }
+  #img-bg
+  {
+    height: 70vh;
+  }
+  #box1
+  {
+    top: 100px;
+  }
+}
